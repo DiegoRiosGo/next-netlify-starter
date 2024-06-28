@@ -13,18 +13,15 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Bienvenidos a MiViajeAPP!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Puedes pagar tu saldo acá <MyButton text="Ir flow" url="https://www.flow.cl/btn.php?token=27mhkwc" />
         </p>
         <p>
           hola que hace broooo
         </p>
       </main>
 
-      <div>
-      <MyButton text="Ir flow" url="https://www.flow.cl/btn.php?token=27mhkwc" />
-      </div>
       <Footer />
     </div>
   )
