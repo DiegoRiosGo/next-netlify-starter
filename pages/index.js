@@ -1,12 +1,23 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+// pages/index.js
+import MyButton from '../components/boton';
+
+const Home = () => {
+  return (
+    <div>
+      <MyButton text="Ir flow" url="https://www.flow.cl/btn.php?token=27mhkwc" />
+    </div>
+  );
+};
+
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Bienvenidos a MiViajeAPP!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,6 +31,7 @@ export default function Home() {
         </p>
       </main>
 
+      <MyButton />
       <Footer />
     </div>
   )
