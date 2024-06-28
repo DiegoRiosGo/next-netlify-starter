@@ -4,15 +4,6 @@ import Footer from '@components/Footer'
 // pages/index.js
 import MyButton from '../components/boton';
 
-const Home = () => {
-  return (
-    <div>
-      <MyButton text="Ir flow" url="https://www.flow.cl/btn.php?token=27mhkwc" />
-    </div>
-  );
-};
-
-
 export default function Home() {
   return (
     <div className="container">
@@ -31,7 +22,9 @@ export default function Home() {
         </p>
       </main>
 
-      <MyButton />
+      <div>
+      <MyButton text="Ir flow" url="https://www.flow.cl/btn.php?token=27mhkwc" />
+      </div>
       <Footer />
     </div>
   )
